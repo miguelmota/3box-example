@@ -1,0 +1,19 @@
+{
+  "name": "3box-example",
+  "version": "1.0.0",
+  "description": "3box example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o public/dist/bundle.js",
+    "serve": "serve -p 5555 public/"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "3box": "^1.13.1",
+    "browserify": "^16.5.0",
+    "identity-wallet": "^0.3.0",
+    "serve": "^11.2.0"
+  }
+}
